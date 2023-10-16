@@ -3,6 +3,14 @@
 In this repository, there are all repositories that were used to enable near real-time motion control 
 of the anthropomorphic arm manipulators based on the human pose estimation (HPE). 
 
+Before starting, run: 
+
+```
+git submodule update –remote
+```
+
+To update all repositories to the newest version.
+
 Repositories contained are: 
  * `hpe_ros_package` --> initial repository for the HPE, but now contains transformation from the image space to the cartesian space based on the camera depth measurements 
  * `ros_openpose` --> ROS wrapper for the openpose repo that was used to estimate pose of the human 
@@ -15,3 +23,6 @@ Installation procedure is following:
  2. Build corresponding docker files, one is used for the `realsense` camera, and another one is used for the HPE and command generation 
  3. Copy ROS packages from this repository to the docker image created from the `Dockerfile.hpe` into `catkin_ws` workspace in the Docker 
  4. Use tmuxinator script to run all neccessary components of the system (camera, ros_openpose, command generation, kalman filtering...) 
+
+If there are any questions, open issue or contact me via e-mail: `filip.zoric@fer.hr`. 
+
