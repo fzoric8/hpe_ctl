@@ -1,0 +1,12 @@
+[submodule "hpe_ros_package"]
+	path = hpe_ros_package
+	url = git@github.com:larics/hpe_ros_package.git
+[submodule "ros_openpose_msgs"]
+	path = ros_openpose_msgs
+	url = git@github.com:fzoric8/ros_openpose_msgs.git
+[submodule "ros_openpose"]
+	path = ros_openpose
+	url = git@github.com:larics/ros_openpose.git
+[submodule "hpe_ros_msgs"]
+	path = hpe_ros_msgs
+	url = git@github.com:fzoric8/hpe_ros_msgs.git
