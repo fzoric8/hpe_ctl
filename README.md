@@ -6,7 +6,7 @@ of the anthropomorphic arm manipulators based on the human pose estimation (HPE)
 After cloning this repository, run: 
 
 ```
-git submodule update –remote
+git submodule update --remote
 ```
 
 To update all repositories to the newest version.
