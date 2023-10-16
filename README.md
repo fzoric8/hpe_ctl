@@ -18,6 +18,7 @@ Repositories contained are:
  * `hpe_ros_msgs` --> ROS package containing custo ROS messages that are used to create ROS messages based on the prediction 
  * `hpe_udp_ctl` --> ROS package used to create bridge between pose estimation machine and the anthropomorphic arms we want to control 
  * `dockerfiles` --> Folder that contains `Dockerfile` files that were used to create `docker` images for the environment setup 
+ * `tmuxinator` --> Folder that contains tmuxinator session used for commanding real robot + `shell_scripts.sh` scripts with various useful Linux command shortcuts
 
 ### hpe_ros_package 
 
