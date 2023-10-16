@@ -10,3 +10,6 @@
 [submodule "hpe_ros_msgs"]
 	path = hpe_ros_msgs
 	url = git@github.com:fzoric8/hpe_ros_msgs.git
+[submodule "hpe_udp_ctl"]
+	path = hpe_udp_ctl
+	url = git@github.com:fzoric8/hpe_udp_ctl.git
